@@ -1,0 +1,178 @@
+[
+  {
+    "resultProp": [
+      "I",
+      "S",
+      "T",
+      "J"
+    ],
+    "resultDesc": "你是一个务实的守护者，注重细节和实用性。你喜欢按照计划行事，并对职责有高度的责任感。",
+    "resultPicture": "https://example.com/images/ISTJ.png",
+    "resultName": "督导者（ISTJ）"
+  },
+  {
+    "resultProp": [
+      "I",
+      "S",
+      "T",
+      "P"
+    ],
+    "resultDesc": "你是一个冷静的分析者，喜欢独立思考和解决问题。你善于应对紧急情况，并能迅速做出反应。",
+    "resultPicture": "https://example.com/images/ISTP.png",
+    "resultName": "工匠（ISTP）"
+  },
+  {
+    "resultProp": [
+      "I",
+      "S",
+      "F",
+      "J"
+    ],
+    "resultDesc": "你是一个忠诚的守护者，关心他人并注重家庭和社区。你有很强的组织能力，并喜欢帮助他人。",
+    "resultPicture": "https://example.com/images/ISFJ.png",
+    "resultName": "保护者（ISFJ）"
+  },
+  {
+    "resultProp": [
+      "I",
+      "S",
+      "F",
+      "P"
+    ],
+    "resultDesc": "你是一个富有同情心的现实主义者，喜欢探索新的体验和可能性。你很随和，善于适应环境。",
+    "resultPicture": "https://example.com/images/ISFP.png",
+    "resultName": "探险者（ISFP）"
+  },
+  {
+    "resultProp": [
+      "I",
+      "N",
+      "T",
+      "J"
+    ],
+    "resultDesc": "你是一个独立的战略家，喜欢制定长远的计划和策略。你有很强的洞察力和决断力。",
+    "resultPicture": "https://example.com/images/INTJ.png",
+    "resultName": "策划者（INTJ）"
+  },
+  {
+    "resultProp": [
+      "I",
+      "N",
+      "T",
+      "P"
+    ],
+    "resultDesc": "你是一个充满好奇心的思想家，喜欢探索理论和概念。你有很强的分析能力和创造性。",
+    "resultPicture": "https://example.com/images/INTP.png",
+    "resultName": "逻辑学家（INTP）"
+  },
+  {
+    "resultProp": [
+      "I",
+      "N",
+      "F",
+      "J"
+    ],
+    "resultDesc": "你是一个富有理想主义的顾问，关心他人的感受并致力于社会进步。你有很强的洞察力和同理心。",
+    "resultPicture": "https://example.com/images/INFJ.png",
+    "resultName": "咨询者（INFJ）"
+  },
+  {
+    "resultProp": [
+      "I",
+      "N",
+      "F",
+      "P"
+    ],
+    "resultDesc": "你是一个充满梦想的探索者，喜欢追求独特和创意。你很灵活，善于应对变化。",
+    "resultPicture": "https://example.com/images/INFP.png",
+    "resultName": "调停者（INFP）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "S",
+      "T",
+      "J"
+    ],
+    "resultDesc": "你是一个实干家，注重效率和结果。你擅长组织和领导，并有很强的执行力。",
+    "resultPicture": "https://example.com/images/ESTJ.png",
+    "resultName": "执行者（ESTJ）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "S",
+      "T",
+      "P"
+    ],
+    "resultDesc": "你是一个冒险家，喜欢挑战和新鲜事物。你反应迅速，能够在压力下表现出色。",
+    "resultPicture": "https://example.com/images/ESTP.png",
+    "resultName": "企业家（ESTP）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "S",
+      "F",
+      "J"
+    ],
+    "resultDesc": "你是一个热情的社交者，喜欢帮助和照顾他人。你很有组织能力，并注重和谐的人际关系。",
+    "resultPicture": "https://example.com/images/ESFJ.png",
+    "resultName": "供给者（ESFJ）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "S",
+      "F",
+      "P"
+    ],
+    "resultDesc": "你是一个乐观的享乐主义者，喜欢享受生活和探索新体验。你很随和，容易相处。",
+    "resultPicture": "https://example.com/images/ESFP.png",
+    "resultName": "表演者（ESFP）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "N",
+      "T",
+      "J"
+    ],
+    "resultDesc": "你是一个自信的领导者，擅长制定战略和实现目标。你有很强的决策能力和执行力。",
+    "resultPicture": "https://example.com/images/ENTJ.png",
+    "resultName": "指挥官（ENTJ）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "N",
+      "T",
+      "P"
+    ],
+    "resultDesc": "你是一个创新的挑战者，喜欢探索新想法和解决复杂问题。你有很强的创造力和适应力。",
+    "resultPicture": "https://example.com/images/ENTP.png",
+    "resultName": "辩论家（ENTP）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "N",
+      "F",
+      "J"
+    ],
+    "resultDesc": "你是一个充满激情的导师，关心他人的成长和发展。你有很强的领导能力和同理心。",
+    "resultPicture": "https://example.com/images/ENFJ.png",
+    "resultName": "教导者（ENFJ）"
+  },
+  {
+    "resultProp": [
+      "E",
+      "N",
+      "F",
+      "P"
+    ],
+    "resultDesc": "你是一个热情的倡导者，喜欢追求梦想和鼓励他人。你很灵活，善于应对变化。",
+    "resultPicture": "https://example.com/images/ENFP.png",
+    "resultName": "竞选者（ENFP）"
+  }
+]

@@ -1,0 +1,72 @@
+[
+    {
+      "title": "你更喜欢独自工作还是与团队合作？",
+      "options": [
+        { "result": "I", "value": "独自工作", "key": "A" },
+        { "result": "E", "value": "与团队合作", "key": "B" }
+      ]
+    },
+    {
+      "title": "你更倾向于详细计划还是即兴发挥？",
+      "options": [
+        { "result": "J", "value": "详细计划", "key": "A" },
+        { "result": "P", "value": "即兴发挥", "key": "B" }
+      ]
+    },
+    {
+      "title": "在做决定时，你更看重逻辑还是感受？",
+      "options": [
+        { "result": "T", "value": "逻辑", "key": "A" },
+        { "result": "F", "value": "感受", "key": "B" }
+      ]
+    },
+    {
+      "title": "你更喜欢处理具体事实还是抽象概念？",
+      "options": [
+        { "result": "S", "value": "具体事实", "key": "A" },
+        { "result": "N", "value": "抽象概念", "key": "B" }
+      ]
+    },
+    {
+      "title": "在社交场合中，你更倾向于：",
+      "options": [
+        { "result": "I", "value": "保持低调", "key": "A" },
+        { "result": "E", "value": "成为焦点", "key": "B" }
+      ]
+    },
+    {
+      "title": "你更喜欢根据：",
+      "options": [
+        { "result": "T", "value": "事实和数据做出决定", "key": "A" },
+        { "result": "F", "value": "个人价值观和感受做出决定", "key": "B" }
+      ]
+    },
+    {
+      "title": "你在组织工作时更倾向于：",
+      "options": [
+        { "result": "J", "value": "制定计划并按部就班", "key": "A" },
+        { "result": "P", "value": "随遇而安，灵活应变", "key": "B" }
+      ]
+    },
+    {
+      "title": "你在获取信息时更喜欢：",
+      "options": [
+        { "result": "S", "value": "依赖具体事实和现实", "key": "A" },
+        { "result": "N", "value": "通过直觉和洞察", "key": "B" }
+      ]
+    },
+    {
+      "title": "你在休息时更倾向于：",
+      "options": [
+        { "result": "I", "value": "独自一人，享受宁静", "key": "A" },
+        { "result": "E", "value": "与朋友们一起热闹", "key": "B" }
+      ]
+    },
+    {
+      "title": "你在处理问题时更倾向于：",
+      "options": [
+        { "result": "T", "value": "运用分析和逻辑", "key": "A" },
+        { "result": "F", "value": "考虑人际关系和感受", "key": "B" }
+      ]
+    }
+  ]
