@@ -28,7 +28,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * ${dataName}接口
  *
- * @author <a href="https://github.com/flowersea520">程序员鱼皮</a>
+ * @author <a href="https://github.com/flowersea520">程序员lxc</a>
  * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
  */
 @RestController

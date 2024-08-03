@@ -1,5 +1,5 @@
 # 线上配置文件
-# @author <a href="https://github.com/flowersea520">程序员鱼皮</a>
+# @author <a href="https://github.com/flowersea520">程序员lxc</a>
 # @from <a href="https://lxc.icu">编程导航知识星球</a>
 server:
   port: 8101
@@ -8,7 +8,7 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
+    url: jdbc:mysql://localhost:3306/aianswergenie
     username: root
     password: 123456
   # Redis 配置

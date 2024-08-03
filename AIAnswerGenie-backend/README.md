@@ -1,6 +1,6 @@
 # SpringBoot 项目初始模板
 
-> 作者：[程序员鱼皮](https://github.com/flowersea520)
+> 作者：[程序员lxc](https://github.com/flowersea520)
 > 仅分享于 [编程导航知识星球](https://lxc.icu)
 
 基于 Java SpringBoot 的项目初始模板，整合了常用框架和主流业务的示例代码。
@@ -74,7 +74,7 @@
 
 ## 快速上手
 
-> 所有需要修改的地方鱼皮都标记了 `todo`，便于大家找到修改的位置~
+> 所有需要修改的地方lxc都标记了 `todo`，便于大家找到修改的位置~
 
 ### MySQL 数据库
 
@@ -84,7 +84,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
+    url: jdbc:mysql://localhost:3306/aianswergenie
     username: root
     password: 123456
 ```
@@ -172,7 +172,7 @@ PUT post_v1
 
 ```
 // 指定生成参数
-String packageName = "com.lxc.springbootinit";
+String packageName = "com.lxc.AIAnswerGenien";
 String dataName = "用户评论";
 String dataKey = "userComment";
 String upperDataKey = "UserComment";

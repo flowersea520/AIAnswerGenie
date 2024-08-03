@@ -1,5 +1,5 @@
 # 公共配置文件
-# @author <a href="https://github.com/flowersea520">程序员鱼皮</a>
+# @author <a href="https://github.com/flowersea520">程序员lxc</a>
 # @from <a href="https://lxc.icu">编程导航知识星球</a>
 spring:
   application:
@@ -21,23 +21,67 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/my_db
+    url: jdbc:mysql://localhost:3306/aianswergenie
     username: root
     password: 1234
-  # Redis 配置
+  shardingsphere:
+    # 数据源配置
+    datasource:
+      # 配置数据源的名称
+      names: aianswergenie
+      aianswergenie:
+        # 数据源类型
+        type: com.zaxxer.hikari.HikariDataSource
+        # 数据库驱动类名
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        # JDBC 连接 URL
+        jdbc-url: jdbc:mysql://localhost:3306/aianswergenie
+        # 数据库用户名
+        username: root
+        # 数据库密码
+        password: 1234
+
+    # 规则配置
+    rules:
+      sharding:
+        # 分片算法配置
+        sharding-algorithms:
+          # 自定义分片规则名
+          answer-table-inline:
+            # 分片算法类型，INLINE 是一种简单的配置方式
+            # INLINE 表示基于配置文件的简单分片算法。
+            type: INLINE
+            # 算法表达式
+            props:
+              algorithm-expression: user_answer_$->{appId % 2}
+
+        tables:
+          # 配置需要分片的表
+          user_answer:
+            # 实际的数据节点，包括数据源名和表名，{0..1} 表示数据将分布到 user_answer_0 和 user_answer_1
+            actual-data-nodes: aianswergenie.user_answer_$->{0..1}
+            # 分表策略配置
+            table-strategy:
+              standard:
+                # 分片列名，即用作分片的字段
+                sharding-column: appId
+                # 分片算法名称，引用上面定义的分片算法
+                sharding-algorithm-name: answer-table-inline
+  # Redisson配置
   # todo 需替换配置，然后取消注释
-#  redis:
-#    database: 1
-#    host: localhost
-#    port: 6379
-#    timeout: 5000
-#    password: 123456
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    #    设置命令等待超时时间。
+    timeout: 2000
+    password: 123456
   # Elasticsearch 配置
   # todo 需替换配置，然后取消注释
-#  elasticsearch:
-#    uris: http://localhost:9200
-#    username: root
-#    password: 123456
+  #  elasticsearch:
+  #    uris: http://localhost:9200
+  #    username: root
+  #    password: 123456
   # 文件上传
   servlet:
     multipart:
@@ -45,7 +89,7 @@ spring:
       max-file-size: 10MB
 server:
   address: 0.0.0.0
-  port: 8080
+  port: 8081
   servlet:
     context-path: /api
     # cookie 30 天过期
@@ -79,4 +123,7 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.lxc.springbootinit.controller
+          - com.lxc.AIAnswerGenien.controller
+ai:
+  api-key: 49b9b3cb806facd188e0ec0d462787a3.tgAk2k1BInR1SzUH
+# 讯飞星火配置
